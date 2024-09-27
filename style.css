@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	font-family: "Poppins", sans-serif;
+}
+
+i {
+	padding: 35px;
+	margin: 10px;
+	transition: 0.3s;
+	border-radius: 8px;
+}
+
+.menu i:hover {
+	background-color: #ff958a;
+}
+
+.container {
+	display: flex;
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #fa8072;
+	border-radius: 30px 0 0 30px;
+	width: max-content;
+	height: 98vh;
+}
+
+.right {
+	background-color: #fff7f6;
+	border-radius: 0 30px 30px 0;
+}
+
+h2{
+    font-weight: 600;
+    margin: 50px 150px 50px 15px;
+}
+
+.btn{
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: 	#ffcdc7;
+    height: fit-content;
+    width: max-content;
+}
+button{
+    font-weight: 600;
+    margin: 6px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.perso{
+    background-color: #fff;
+
+}
+.business{
+    background-color: #fef4f4;
+    color: #fa8072;
+}
+.category{
+    display: flex;
+}
+.category p{
+    align-content: center;
+}
+ul{
+    list-style-image: ;
+}
