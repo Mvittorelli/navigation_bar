@@ -16,6 +16,7 @@ i {
 }
 
 .container {
+	margin: 10px;
 	display: flex;
 }
 
@@ -34,41 +35,45 @@ i {
 	border-radius: 0 30px 30px 0;
 }
 
-h2{
-    font-weight: 600;
-    margin: 50px 150px 50px 15px;
+h2 {
+	font-weight: 600;
+	margin: 50px 150px 50px 15px;
 }
 
-.btn{
-    border-radius: 5px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: 	#ffcdc7;
-    height: fit-content;
-    width: max-content;
+.btn {
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #ffcdc7;
+	height: fit-content;
+	width: max-content;
 }
-button{
-    font-weight: 600;
-    margin: 6px;
-    padding: 10px 30px 10px 30px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
+button {
+	font-weight: 600;
+	margin: 6px;
+	padding: 10px 30px 10px 30px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
 }
-.perso{
-    background-color: #fff;
-
+.perso {
+	background-color: #fff;
 }
-.business{
-    background-color: #fef4f4;
-    color: #fa8072;
+.business {
+	background-color: #fef4f4;
+	color: #fa8072;
 }
-.category{
-    display: flex;
+.category,
+.category2 {
+	display: flex;
 }
-.category p{
-    align-content: center;
+.category p,
+.category2 p {
+	align-content: center;
 }
-ul{
-    list-style-image: ;
+ul {
+	list-style-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Ffr%2Fimages%2Funicorn-sticker-kawaii-unicorn-sticker-png-file%2F572312118&psig=AOvVaw2g3fCn0CSOYn9EgyDBjzir&ust=1727530318357000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCY1o2e44gDFQAAAAAdAAAAABAE);
+}
+.category2 {
+	margin: -20px;
 }
