@@ -31,6 +31,7 @@ i {
 }
 
 .right {
+
 	background-color: #fff7f6;
 	border-radius: 0 30px 30px 0;
 }
@@ -72,8 +73,21 @@ button {
 	align-content: center;
 }
 ul {
-	list-style-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Ffr%2Fimages%2Funicorn-sticker-kawaii-unicorn-sticker-png-file%2F572312118&psig=AOvVaw2g3fCn0CSOYn9EgyDBjzir&ust=1727530318357000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCY1o2e44gDFQAAAAAdAAAAABAE);
+	list-style-image: url();
 }
 .category2 {
 	margin: -20px;
+}
+hr{
+    margin: 10px;
+}
+
+.category, .category2{
+    border-radius: 0 10px 10px 0;
+    width: 100%;
+}
+
+.category:hover, .category2:hover{
+    transition: 0.5s;
+    background-color: #fa8072;
 }
